@@ -14,6 +14,7 @@ dtb-$(CONFIG_ARM64) += gxl_p400_2g.dtb
 dtb-$(CONFIG_ARM64) += gxl_p401_2g.dtb
 dtb-$(CONFIG_ARM64) += gxm_q200_2g.dtb
 dtb-$(CONFIG_ARM64) += h96_compute_stick.dtb
+dtb-$(CONFIG_ARM64) += kvim2_pro_memoptim.dtb
 
 always		:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
